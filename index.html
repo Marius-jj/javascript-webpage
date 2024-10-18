@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Webpage</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script
+      src="https://kit.fontawesome.com/bea16de483.js"
+      crossorigin="anonymous"
+    ></script>
+    <script>
+      window.history.replaceState("", "", "/");
+    </script>
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar">
+      <div class="navbar-container">
+        <a href="#home" id="navbar-logo">Code Learner</a>
+        <div class="navbar-toggle" id="mobile-menu">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </div>
+        <ul class="navbar-menu">
+          <li class="navbar-item">
+            <a href="#home" class="navbar-links" id="home-page">Home</a>
+          </li>
+          <li class="navbar-item">
+            <a href="#about" class="navbar-links" id="about-page">About</a>
+          </li>
+          <li class="navbar-item">
+            <a href="#services" class="navbar-links" id="services-page"
+              >Services</a
+            >
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <div class="hero" id="home">
+      <div class="hero-container">
+        <h1 class="hero-heading">Welcome to<br><span>Code Learner</span></h1>
+        <p class="hero-description"> Here you get the help to master coding</p>
+        <!-- <button class="main-btn"><a href="#">Explore</a></button> -->
+      </div>
+    </div>
+
+    <!-- About section -->
+    <div class="main" id="about">
+      <div class="main-container">
+        <div class="main-img-container">
+          <div class="main-img-card"><i class="fas fa-layer-group"></i></div>
+        </div>
+        <div class="main-content">
+          <h1>What do we do?</h1>
+          <h2>We help with lerning the code language you want</h2>
+          <p>Make your own plan, or choose from ready made plans below</p>
+          <button class="main-btn"><a href="#">Plan</a></button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Services section -->
+    <div class="services" id="services">
+      <h1>Our services</h1>
+      <div class="services-wrapper">
+        <div class="services-card">
+          <h2>Basic CSS</h2>
+          <p>Are yo ready?</p>
+          <div class="services-btn"><button>Get Started</button></div>
+        </div>
+        <div class="services-card">
+          <h2>Advanced CSS</h2>
+          <p>Take the leap</p>
+          <div class="services-btn"><button>Get Started</button></div>
+        </div>
+        <div class="services-card">
+          <h2>JavaScript 101</h2>
+          <p>The classic</p>
+          <div class="services-btn"><button>Get Started</button></div>
+        </div>
+        <div class="services-card">
+          <h2>React</h2>
+          <p>The web builder</p>
+          <div class="services-btn"><button>Get Started</button></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Footer section -->
+    <div class="footer-container">
+      <div class="footer-links">
+        <div class="footer-link-wrapper">
+          <div class="footer-link-items">
+            <h2>Contact us</h2>
+            <a href="/sign-up">+47 123123123</a>
+            <a href="/sign-up">123@CodeLearner.site</a>
+          </div>
+          <div class="footer-link-items">
+            <h2>Location</h2>
+            <a href="/sign-up">Norge</a>
+            <a href="/sign-up">Eventyrveien</a>
+            <a href="/sign-up">2013</a>
+            <a href="/sign-up">Eventyr</a>
+          </div>
+        </div>
+        <div class="footer-link-wrapper">
+          <div class="footer-link-items">
+            <h2>Videos</h2>
+            <a href="/sign-up">Getting started</a>
+            <a href="/sign-up">Code tutorials</a>
+            <a href="/sign-up">How to code</a>
+          </div>
+          <div class="footer-link-items">
+            <h2>About us</h2>
+            <a href="/sign-up">How it works</a>
+            <a href="/sign-up">Testimonals</a>
+            <a href="/sign-up">Careers</a>
+            <a href="/sign-up">Terms of service</a>
+          </div>
+        </div>
+      </div>
+      <section class="social-media">
+        <div class="social-media-wrapper">
+            <div class="footer-logo">
+                <a href="/" id="footer-logo">Code Learner</a>
+            </div>
+            <p class="website-rights">® All rights reserved</p>
+            <div class="social-icons">
+                <a href="/" class="social-icon-link" target="_blank"><i class="fab fa-linkedin"></i></a>
+                <a href="/" class="social-icon-link" target="blank"><i class="fab fa-instagram"></i></a>
+            </div>
+        </div>
+      </section>
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>
